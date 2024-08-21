@@ -1,0 +1,175 @@
+ body {
+ 	font-family: Arial, sans-serif;
+ 	background-color: #f0f0f0;
+ 	margin: 0;
+ 	padding: 0;
+ 	background-image: url("img.jpg");
+ }
+
+ header {
+ 	background-color: #0044cc;
+ 	color: #fff;
+ 	padding: 10px 0;
+ 	text-align: center;
+ }
+
+ nav {
+ 	background-color: #575757;
+ }
+
+ nav ul a {
+ 	background-color: #575757;
+ 	display: inline-block;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 20px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ }
+
+ nav ul a:hover {
+ 	color: black;
+ 	background-color: rgb(192, 192, 192);
+ }
+
+ nav ul {
+ 	list-style-type: none;
+ 	padding: 0;
+ 	margin: 0;
+ 	display: inline-block;
+ }
+
+ nav ul li {
+ 	display: inline;
+ }
+
+ .login-container {
+	position: relative;
+ 	border: 1px soild black;
+ 	background-color: rgba(255, 255, 255, .8);
+ 	border-radius: 8px;
+ 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 	padding: 20px;
+ 	width: 25%;
+ 	text-align: center;
+ 	margin:141px;
+ }
+
+.container{
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 	background-color: rgba(255, 255, 255, .8);
+ 	padding: 10px;
+ 	width: 75%;
+ 	margin:5%;
+ 	height: 100%;
+ 	margin-bottom: 150px;
+}
+
+ input {
+ 	width: 96%;
+ 	padding: 10px;
+ 	margin: 10px 0px;
+ 	border: 1px solid #ccc;
+ 	border-radius: 4px;
+ 	position: relative;
+ }
+
+ button {
+ 	width: 96%;
+ 	padding: 10px;
+ 	border: none;
+ 	border-radius: 4px;
+ 	background-color: #007bff;
+ 	color: #fff;
+ 	font-size: 16px;
+ 	cursor: pointer;
+ }
+
+ button:hover {
+ 	background-color: #0056b3;
+ }
+
+ .login-container p {
+ 	margin-top: 10px;
+ 	color: #666;
+ }
+
+ .btn:hover {
+ 	cursor: pointer;
+ 	color: Blue;
+ }
+
+ footer {
+ 	background-color: #0044cc;
+ 	color: #fff;
+ 	text-align: center;
+ 	padding: 10px 0;
+ 	position: fixed;
+ 	bottom: 0;
+ 	width: 100%;
+ }
+ 
+.logout{
+	font-weight: bold;
+	color: red;
+	display: inline-block;
+	position:absolute;
+	right:0px;
+	padding: 14px;
+	cursor:pointer;
+}
+.logout:hover{
+	background-color: rgb(244, 85, 85);
+	color:white;
+}
+
+.hero {
+	margin-top: 20px;
+	background-color: #f4f4f4;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.hero h1 {
+	margin: 0;
+	font-size: 2.5em;
+}
+
+.features {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: #e2e2e2;
+	margin-bottom: 50px;
+}
+
+.feature {
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 30%;
+}
+
+.feature h3 {
+	margin-top: 0;
+}
+
+.features :hover {
+	color: blue;
+	cursor: pointer;
+
+}
+#vb{
+	cursor: pointer;
+	padding: 8px 0px;
+}
+.data{
+	padding: 20px;
+	color:blue;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 30px;
+}
